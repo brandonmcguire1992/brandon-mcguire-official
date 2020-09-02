@@ -1,15 +1,26 @@
+
+
 body{
     background-color: black;
+    
 }
 
 .hero{
-    background-size: cover;
+    /* background-size: cover; */
+    width: auto;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.3)
+    ), url('../images/full-stack-developer-banner.jpg');
+    background-attachment: cover;
+    height: 450px;
 }
 
 header {
     justify-content: space-between;
     display: flex;
     color: purple;
+    
 }
 
 header a {
@@ -29,7 +40,7 @@ header nav ul{
 header nav ul li a {
     padding: 10px 15px;
     color: purple;
-    padding-right: 50px;
+    /* padding-right: 50px; */
     font-size: 20px;
     font-weight: bold;
 }
@@ -40,35 +51,54 @@ header nav ul li a {
 }
 
 .project-1{
-    background-image: url('../images/run-buddy.jpg.png');
+    
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.8)
+    ), url('../images/run-buddy.jpg.png');
     background-size: cover;
     height: 250px;
     border: purple 3px solid;
     border-radius: 10px;
-    opacity: 0.7;
+    /* opacity: 0.7; */
 }
 
 .project-2{
-    background-image: url('../images/horiseon.jpg.png');
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.8)
+    ),  url('../images/horiseon.jpg.png');
 }
 
 .project-3 {
-    background-image: url('../images/work-day-scheduler.jpg');
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.8)
+    ),  url('../images/work-day-scheduler.jpg');
     
 }
 
 .project-4 {
-    background-image: url('../images/weather-dashboard.jpg');
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.8)
+    ),  url('../images/weather-dashboard.jpg');
     
 }
 
 .project-5 {
-    background-image: url('../images/placeholder.jpg');
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.8)
+    ),  url('../images/placeholder.jpg');
     
 }
 
 .project-6 {
-    background-image: url('../images/placeholder.jpg');
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.8)
+    ),  url('../images/placeholder.jpg');
 }
 
 .img {
@@ -76,7 +106,6 @@ header nav ul li a {
     height: 125px;
     border: purple 3px solid;
     border-radius: 10px;
-    opacity: 0.7;
     
 }
 
@@ -106,17 +135,23 @@ header nav ul li a {
 }
 
 .group-1 {
-    background-image: url('../images/barkeep.jpg');
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.8)
+    ),  url('../images/barkeep.jpg');
 }
 
 .group-2 {
-    background-image: url('../images/placeholder.jpg');
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.8)
+    ),  url('../images/placeholder.jpg');
 }
 
 li a:hover{
     background-color: blueviolet;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 20px;
 }
 
 h3 span:hover, p span:hover{
@@ -130,12 +165,14 @@ h3 span:hover, p span:hover{
     font-weight: bold;
     font-size: 20px;
     align-content: center;
+    padding: 15px;
+    margin: 55px;
 }
 
 .contact a:hover{
     background-color: blueviolet;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 20px;
 }
 
 .title{
@@ -157,4 +194,12 @@ h3 span:hover, p span:hover{
 
 .contact-me-links {
     height: 100%;
+}
+
+.subtitle {
+    text-align: right;
+    color: purple;
+    padding-right: 20px;
+    font-weight: bold;
+    padding-top: 350px;
 }
