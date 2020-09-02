@@ -1,0 +1,160 @@
+body{
+    background-color: black;
+}
+
+.hero{
+    background-size: cover;
+}
+
+header {
+    justify-content: space-between;
+    display: flex;
+    color: purple;
+}
+
+header a {
+    padding-left: 25px;
+}
+
+header nav ul{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 15px 0 0 0 ;
+
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    color: purple;
+    padding-right: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.container{
+    color: purple;
+    padding-top: 50px;
+}
+
+.project-1{
+    background-image: url('../images/run-buddy.jpg.png');
+    background-size: cover;
+    height: 250px;
+    border: purple 3px solid;
+    border-radius: 10px;
+    opacity: 0.7;
+}
+
+.project-2{
+    background-image: url('../images/horiseon.jpg.png');
+}
+
+.project-3 {
+    background-image: url('../images/work-day-scheduler.jpg');
+    
+}
+
+.project-4 {
+    background-image: url('../images/weather-dashboard.jpg');
+    
+}
+
+.project-5 {
+    background-image: url('../images/placeholder.jpg');
+    
+}
+
+.project-6 {
+    background-image: url('../images/placeholder.jpg');
+}
+
+.img {
+    background-size: cover;
+    height: 125px;
+    border: purple 3px solid;
+    border-radius: 10px;
+    opacity: 0.7;
+    
+}
+
+.project-title1{
+    /* color: purple; */
+    padding-top: 170px;
+    padding-left: 10px;
+}
+
+.project-title {
+    /* color: purple; */
+    padding-top: 55px;
+    font-size: 20px;
+    padding-left: 5px;
+}
+
+.run{
+    color: purple;
+    padding-left: 10px;
+    font-weight: bolder;
+}
+
+.run2 {
+    color: purple;
+    padding-left: 5px;
+    font-weight: bolder;
+}
+
+.group-1 {
+    background-image: url('../images/barkeep.jpg');
+}
+
+.group-2 {
+    background-image: url('../images/placeholder.jpg');
+}
+
+li a:hover{
+    background-color: blueviolet;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+h3 span:hover, p span:hover{
+    background-color: blueviolet;
+    text-decoration-line: none;
+
+}
+
+.contact a{
+    color: purple;
+    font-weight: bold;
+    font-size: 20px;
+    align-content: center;
+}
+
+.contact a:hover{
+    background-color: blueviolet;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.title{
+    border-right: purple 3px solid;
+    align-content: center;
+}
+
+.about-me {
+    height: 100%;
+}
+
+.work{
+    height: 100%;
+}
+
+.group-work{
+    height: 100%;
+}
+
+.contact-me-links {
+    height: 100%;
+}
